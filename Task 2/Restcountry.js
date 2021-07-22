@@ -5,7 +5,7 @@ var xhr = new XMLHttpRequest();
           var data = JSON.parse(this.response);
           for(var i=0;i<data.length;i++)
           {
-            //console.log(data[i]);
+          
              console.log(data[i].flag);
              console.log(data[i].name);
              console.log(data[i].population);
