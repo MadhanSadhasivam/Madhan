@@ -1,0 +1,81 @@
+
+[1]
+
+	Javascript
+	
+1.	Javascript is a programming language that is used for writing scripts on the website.     
+2.	Javascript can only be run in the browsers.                                                  	
+3.	It is basically used on the client-side.                                                   
+4.	Javascript is capable enough to add HTML and play with the DOM.                            	
+5.	Javascript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox.		            6.	Some of the javascript frameworks are RamdaJS, TypedJS, etc.                                 	
+	  
+
+
+        Node JS
+
+1.      Nodejs is written in C, C++ and Javascript.
+2.	NodeJS code can be run outside the browser.
+3.      It is mostly used on the server-side.
+4.      Nodejs does not have capability to add HTML tags.
+5.	Nodejs can only run in V8 engine of google chrome.
+6.      Some of the Nodejs modules are Lodash, express etc. These modules are to be imported from npm.
+
+
+
+[2]     typeof(1)
+        "number"
+        typeof(1.1)
+        "number"
+        typeof('1.1')
+        "string"
+        typeof(true)
+        "boolean"
+        typeof(null)
+        "object"
+        typeof(undefined)
+        "undefined"
+        typeof([])
+        "object"
+        typeof({})
+        "object"
+        typeof(NaN)
+        "number"
+
+[3]     How does browser render a website
+        
+
+        1.We parse our Html and CSS that creates a DOM tree
+        2.DOM tree then converted to a Render tree
+        3.Html and CSS combined have four trees
+        4.Four Trees - Layers,Line Boxes,Render Objects,Render Styles
+        5.Layout will compute the elements to the page and then taking account all the CSS then painting will produce an           image which will be expecting on the page
+
+[4]     Is it nessesary to write head ,body and html tags?
+
+        1.If we didnt write these tags ,during parsing it will insert the tags for you
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
