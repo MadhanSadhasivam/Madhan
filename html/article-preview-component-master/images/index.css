@@ -1,0 +1,60 @@
+body{
+    font-family:"Roboto",sans-serif;
+  }
+  :root{
+    font-size:20px;
+  }
+  
+  .flag{
+    height:14rem;
+    width:100%;
+    object-fit:cover ;
+  }
+  .container{
+    background-color: white;
+    max-width:20rem;
+    border-radius: 0.5rem;
+    overflow:hidden;
+    box-shadow: 3px 3px 10px 0px rgba(50,50,50,0.1);
+  }
+  .info{
+    padding:1rem;
+  }
+  .sub-heading,
+  .user-name{
+    color:hsl(217,19%,35%);
+    font-weight:bold;
+  }
+  .user-name{
+    margin-bottom:4px;
+  }
+  .main-content{
+    color:hsl(214,17%,51%);
+  }
+  .post-date{
+    color:hsl(214,17%,51%);
+    margin:0;
+  }
+  body{
+    background-color:whitesmoke;
+  }
+  .profile-pic{
+    border-radius:50%;
+    height:3rem;
+  }
+  .share-container{
+    background-color: hsl(210,46%,95%);
+    border-radius: 50%;
+    width: 2rem;
+    height:2rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-left:auto;
+  }
+  .post-details{
+    display:flex;
+    align-items:center;
+    gap:0.5rem;
+  }
+  

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  
+
+<title>Frontend Mentor | Article preview component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } 
+   
+     
+    body{
+    font-family:"Roboto",sans-serif;
+  }
+  
+  /* :root{
+    font-size:20px;
+ } */
+ 
+  
+  .flag{
+    height:14rem;
+    width:100%;
+    object-fit:cover ;
+  }
+  .container{
+    background-color:white;
+    max-width:20rem;
+    border-radius: 0.5rem;
+    overflow:hidden;
+    box-shadow: 3px 3px 10px 0px rgba(50,50,50,0.1);
+  }
+  .info{
+    padding:1rem;
+  }
+  .sub-heading,
+  .user-name{
+    color:hsl(217,19%,35%);
+    font-weight:bold;
+  }
+  .user-name{
+    margin-bottom:4px;
+  }
+  .main-content{
+    color:hsl(214,17%,51%);
+  }
+  .post-date{
+    color:hsl(214,17%,51%);
+    margin:0;
+  }
+  body{
+    background-color:whitesmoke;
+  }
+  .profile-pic{
+    border-radius:50%;
+    height:3rem;
+  }
+  .share-container{
+    background-color: hsl(210,46%,95%);
+    border-radius: 50%;
+    width: 2rem;
+    height:2rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-left:auto;
+  }
+  .post-details{
+    display:flex;
+    align-items:center;
+    gap:0.5rem;
+    padding:1rem;
+    position:relative;
+  }
+  .share-details{
+    display:flex;
+    align-items:center;
+    padding:1rem;
+    gap:0.5rem;
+    background-color:hsl(217,19%,35%);
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transform:translateY(2rem);
+    transition: all 0.2s ease;
+  }
+  .post-details:hover .share-details{
+    opacity:1;
+    transform: translate(0);
+  }
+  .share-title{
+    color:hsl(214,17%,51%);
+    letter-spacing:0.5rem;
+    font-weight:bold;
+  }
+  .share-pic{
+    height:1rem;
+    margin-right:1rem;
+  }
+  
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img class="flag" src="images/drawers.jpg">
+  <div class="info">
+    <p class="sub-heading">Shift the overall look and feel by adding these wonderful 
+      touches to furniture in your home</p>
+      <p class="main-content">Ever been in a room and felt like something was missing? Perhaps 
+        it felt slightly bare and uninviting. I’ve got some simple tips 
+        to help you make any room feel complete</p>
+        <div class="post-details">
+          <img class="profile-pic" src="images/avatar-michelle.jpg" alt="">
+          <div>
+          <p class="user-name">Michelle Appleton</p>
+          <p class="post-date">28 Jun 2020</p>
+          </div>
+          <div class="share-container"><img src="images/icon-share.svg" alt=""></div>
+          <div class="share-details">
+            <p class="share-title">SHARE</p>
+            <div>
+              <img class="share-pic" src="images/icon-facebook.svg" alt="">
+              <img class="share-pic" src="images/icon-twitter.svg" alt="">
+              <img class="share-pic" src="images/icon-pinterest.svg" alt="">
+            </div>
+            <div class="share-container"><img src="images/icon-share.svg" alt=""></div>
+          </div>
+        </div>
+        </div>
+        </div>
+        
+        
+
+
+ 
+
+  
+  
+<!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. -->
+  </div>
+</body>
+</html>
