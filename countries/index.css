@@ -10,6 +10,8 @@
     overflow: hidden;
     float:left;
     padding: auto; 
+    margin-right: 30px;
+    margin-bottom: 20px;
 }
 .info{
     padding:2rem;
