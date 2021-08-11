@@ -8,9 +8,11 @@
     max-height: 30rem;
     border-radius: 0.5rem;
     overflow: hidden;
+    float:left;
+    padding: auto; 
 }
 .info{
-    padding:1rem;
+    padding:2rem;
 }
 .flag{
     height:12rem;
@@ -22,4 +24,7 @@ body{
 }
 .side-heading{
     font-size:15px;
+}
+.details{
+    padding:1.5rem;
 }
